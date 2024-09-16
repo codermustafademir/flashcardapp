@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Application</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="button-con">
+            <button class="add-btn">Add A Flashcard</button>
+        </div>
+        <div class="card-container"></div>
+    </div>
+
+<div class="add-card-con hide">
+    <h2 class="title-div"></h2>
+    <div class="wrapper">
+        <div class="error-div">
+        <div class="error-con hide">Input Fileds Can Not Be Empty!</div>
+        </div>
+        <button class="cls-btn">X</button>
+    </div>
+    <label for="question">Question: </label>
+    <textarea
+    class="question"
+    placeholder="Type your question here..."
+    ="2"></textarea>
+    <label for="answer">Answer: </label>
+    <textarea
+    class="answer"
+    placeholder="Type your answer here..."
+    rows="3"></textarea>
+    <button class="save-btn">Save</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
